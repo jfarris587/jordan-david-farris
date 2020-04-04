@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <Container>
       <Heading>
-        {true ? (
+        {false ? (
           <>
             <i>👋</i> Hi, you found me! My name is{" "}
             <span style={{ color: "#e14761" }}>Jordan Farris</span> and I am a

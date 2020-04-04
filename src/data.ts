@@ -93,7 +93,7 @@ export const portfolio = [
   },
   {
     id: "order",
-    name: "Bizboard Ordering Dashboard",
+    name: "Bizboard Dashboard",
     color: "#202841",
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
         tenetur nam, magnam excepturi cumque quidem. Inventore magnam cumque
@@ -115,3 +115,5 @@ export const portfolio = [
     ],
   },
 ];
+
+export const portfolio2 = [];

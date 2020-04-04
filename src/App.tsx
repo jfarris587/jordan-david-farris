@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import styled, { ThemeProvider } from "styled-components";
 import theme from "./theme";
 import "./App.css";
@@ -6,8 +6,8 @@ import Hero from "./sections/hero";
 import Navigation from "./components/navigation";
 import Footer from "./components/footer";
 import About from "./sections/about";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Portfolio from "./sections/portfolio";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Portfolio from "./sections/portfolio/index";
 
 const App = () => {
   return (
