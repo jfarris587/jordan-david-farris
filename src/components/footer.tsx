@@ -20,7 +20,7 @@ const StyledFooter = styled.footer`
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 767px) {
+  @media (max-width: 992px) {
     padding: 0.05rem 0.25rem;
   }
 

@@ -6,8 +6,14 @@ export const Heading = styled.h1`
   font-size: 2.2rem;
 
   width: fit-content;
-  padding: 0;
+  padding: 0.5rem 0.5rem;
+  position: relative;
+  left: -0.5rem;
   margin-top: 7rem;
+
+  @media (max-width: 992px) {
+    margin-top: 1rem;
+  }
 
   background: none;
   transition: all 0.2s cubic-bezier(0.86, 0, 0.07, 1);
@@ -31,9 +37,9 @@ export const Description = styled.p`
   margin-bottom: 3rem;
   opacity: 0.5;
 
-  @media (max-width: 767px) {
+  @media (max-width: 992px) {
     padding: 0;
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0 0 0;
   }
 `;
 
@@ -41,6 +47,10 @@ export const Image = styled.img`
   width: 100%;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.12);
   margin: 7rem auto 0;
+
+  @media (max-width: 992px) {
+    margin: 1rem auto 0;
+  }
 `;
 
 export const IconWrapper = styled.div`
@@ -50,7 +60,7 @@ export const IconWrapper = styled.div`
   align-items: flex-start;
   margin-bottom: 1rem;
 
-  @media (max-width: 767px) {
+  @media (max-width: 992px) {
     margin: 0;
   }
 `;

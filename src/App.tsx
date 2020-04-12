@@ -49,7 +49,7 @@ const Container = styled.div`
   flex: 1;
   display: flex;
 
-  @media (max-width: 767px) {
+  @media (max-width: 992px) {
     padding: 0 1rem;
   }
 

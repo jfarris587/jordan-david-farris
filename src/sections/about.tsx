@@ -89,7 +89,7 @@ const Wrapper = styled.div`
     display: inline-flex;
     flex-direction: column;
 
-    @media (max-width: 767px) {
+    @media (max-width: 992px) {
       width: 100%;
     }
   }
@@ -99,7 +99,7 @@ const Heading = styled.h1`
   font-weight: 700;
   font-size: 2.2rem;
 
-  @media (max-width: 767px) {
+  @media (max-width: 992px) {
     margin-top: 3rem;
   }
 `;
@@ -109,7 +109,7 @@ const Grid = styled.div``;
 const Item = styled.div`
   padding: 2.75rem 0;
 
-  @media (max-width: 767px) {
+  @media (max-width: 992px) {
     padding: 1.75rem 0;
   }
 

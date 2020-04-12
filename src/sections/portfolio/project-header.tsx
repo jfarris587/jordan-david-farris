@@ -16,7 +16,7 @@ const ProjectHeader: FC<Project> = ({
     <ProjectType>{type}</ProjectType>
     <IconWrapper>
       {icons.map((icon) => (
-        <Icon className={icon} />
+        <Icon key={icon} className={icon} />
       ))}
     </IconWrapper>
     <Description dangerouslySetInnerHTML={{ __html: description }} />

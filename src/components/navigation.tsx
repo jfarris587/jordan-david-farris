@@ -30,7 +30,7 @@ const Header = styled.header`
   align-items: center;
   padding: 0.5rem 0.5rem;
 
-  @media (max-width: 767px) {
+  @media (max-width: 992px) {
     padding: 0.5rem 0.25rem;
   }
 
@@ -52,7 +52,7 @@ const Header = styled.header`
     li {
       display: inline;
       padding: 0 1rem;
-      @media (max-width: 767px) {
+      @media (max-width: 992px) {
         padding: 0 0.35rem;
       }
 
@@ -62,7 +62,7 @@ const Header = styled.header`
         font-size: 1.15rem;
         font-weight: 400;
 
-        @media (max-width: 767px) {
+        @media (max-width: 992px) {
           font-size: 1rem;
         }
 
